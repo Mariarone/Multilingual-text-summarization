@@ -1,0 +1,102 @@
+body {
+  background-image: url("\Users\pc\Desktop\project\image1");
+}
+
+#p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:50px;
+  font-weight:900;
+  color:white;
+  text-align:center;
+}
+
+#p2 {
+ color:white;
+ float:left;
+}
+
+#p3{
+ color:white;
+ text-align:center;
+ font-size:30px;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10000;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #333;
+}
+
+
+#h
+{
+color:white;
+float:left;
+font-size:50px;
+margin-left:450px;
+}
+#e
+{
+color:white;
+float:left;
+font-size:50px;
+margin-left:100px;
+}
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FFA07A;
+  border: none;
+  border-radius: 15px;
+  margin-top:70px;
+  padding:20px 28px;
+  float:left;
+  
+}
+
+.button:hover {background-color: #E9967A}
+
+.button:active {
+  background-color: #E9967A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#b1{
+ margin-left:450px;
+}
+
+#b2{
+ margin-left:100px;
+}
+
+

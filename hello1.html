@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/503458-paper-literature-books-748x468.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: aliceblue;
+  font-size:50px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10000;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<ul>
+    <p id="p2">Text Summarizer</p>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#summary">Summary</a></li>
+</ul>
+
+
+<p>Please enter the content again!!!</p>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Warning!</strong>The entered content is not in English.
+</div>
+
+</body>
+</html>

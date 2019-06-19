@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/503458-paper-literature-books-748x468.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+
+}
+
+#p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:50px;
+  font-weight:900;
+  color:blue;
+  text-align:center;
+}
+.wrapper {
+    text-align: center;
+}
+#p2 {
+ color:white;
+ float:left;
+}
+
+#p3{
+ color:blue;
+ text-align:center;
+ font-size:30px;
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10000;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #333;
+}
+button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color:gray;
+    color: white;
+    padding: 10px 60px 20px 60px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 50%;
+    font-size: larger;
+    border-width: 1px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+/*#h
+{
+color:white;
+float:left;
+font-size:50px;
+margin-left:450px;
+}
+#e
+{
+color:white;
+float:left;
+font-size:50px;
+margin-left:100px;
+}*/
+
+</style>
+<title></title>
+
+
+</head>
+<body>
+
+<ul>
+	<p id="p2">Text Summarizer</p>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#summary">Summary</a></li>
+</ul>
+
+<p id="p1">Text Summarizer</p>
+<p id="p3">select the language</p>
+
+
+<div class="wrapper">
+  <button><a href= "{{ url_for('static', filename = 'index.html') }}" id="h">Hindi</a></button>
+  <button><a href= "{{ url_for('static', filename = 'index1.html') }}" id="e">English</a></button>
+</div>
+</body>
+</html>
+

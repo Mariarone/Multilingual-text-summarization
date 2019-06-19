@@ -1,0 +1,56 @@
+body {
+  background-image: url("/home/meenakshi/new_p/templates/image1");
+}
+
+h1{
+color:white;
+ font-size:30px;
+ margin-left:100px;
+ }
+ 
+p{
+color:white;
+ font-size:20px;
+ margin-left:100px;
+}
+
+textarea{
+margin-left:100px;
+width: 90%;
+  height: 350px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FFA07A;
+  border: none;
+  border-radius: 15px;
+  margin-top:50px;
+  padding:12px 20px;
+  float:left;
+  
+}
+
+.button:hover {background-color: #E9967A}
+
+.button:active {
+  background-color: #E9967A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#b1{
+margin-left:100px;
+}
